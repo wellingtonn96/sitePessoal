@@ -8,17 +8,36 @@ body {
   background: radial-gradient(
     circle,
     rgba(85, 85, 85, 1) 0%,
-    rgba(34, 34, 34, 1) 50%,
+    rgba(34, 34, 44, 1) 50%,
     rgba(0, 0, 0, 1) 100%
   );
   height: 100vh;
   color: #ccc;
+  font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
-  padding: 55px;
+}
+
+li {
+  list-style: none;
 }
 
 a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+  color: inherit;
+  text-decoration: inherit;
 }
+
+/*
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 80px 0 80px;
+}
+*/
+
+/*
+
+*/
